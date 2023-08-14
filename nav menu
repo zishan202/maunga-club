@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" <head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width">
+<title>maunga club</title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+   <header> 
+    <!--logo image-->
+    <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/Maunga_Club_white.png">
+    
+
+
+    <!--Navigation menu-->
+    <nav>
+        <ul><!--<ul> and <li> tags adding during section 3.1-->
+             <li><a href="index.html">HOME</a>
+             <li><a href="chalets.html">CHALETS</a>
+             <li><a href="cabin.html">CHALET INTERIOR</a>
+             <li><a href="ski.html">SKI</a>
+             <li><a href="gallery.html">GALLERY</a>
+    </nav>
