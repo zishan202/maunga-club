@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width">
+<title>maunga club</title>
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+  
+   <header> 
+    <!--logo image-->
+    <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/Maunga_Club_white.png">
+    
+
+  
+    <!--Navigation menu-->
+    <nav>
+        <ul><!--<ul> and <li> tags adding during section 3.1-->
+             <li><a href="index.html">HOME</a>
+             <li><a href="chalets.html">CHALETS</a>
+             <li><a href="cabin.html">CHALET INTERIORS</a>
+             <li><a href="ski.html">PRICING</a>
+                 
+    </nav>
+
+  </header>
+  
+    <div class="intro-block" style="margin: -150px; padding: 0px;"><!--added in section 3.1-->
+
+   <!--adding background image-->
+       <img style=width:1500px;height:1000px; src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/mountain_view_dark.jpg">
+     
+   <!--main heading-->
+          <h1>THANKS FOR SUBMITTING YOUR DETAILS!!</h1>
+          <a href="index.html"class="button">HOME</a>
+          <a href="chalets.html" class="button">CHALETS</a>
+          <a href="cabin.html" class="button">CHALET INTERIORS</a>
+          <a href="ski.html" class="button">PRICING</a> 
+          
+  
+        
+          
+         <script src="index.html" theme="dark" position="bottom-right"></script>
+
+          <footer>
+          <p><small>&copy;Maunga club 2023-website by zishan ali</small></p>
+          </footer>
+         
+          
+</body>   
+</html>
+               
