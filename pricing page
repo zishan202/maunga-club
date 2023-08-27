@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width">
+<title>pricing</title>
+<link href="css/style.css" rel="stylesheet">
+<link href="styles/normalize.css" rel="stylesheet"
+</head>
+
+
+<body>
+  
+   <header> 
+    <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/Maunga_Club_white.png"> 
+    
+
+
+    <!--Navigation menu-->
+    <nav>
+        <ul><!--<ul> and <li> tags adding during section 3.1-->
+             <li><a href="index.html">HOME</a>
+             <li><a href="chalets.html">CHALETS</a>
+             <li><a href="cabin.html">CHALET INTERIORS</a>
+             <li><a href="ski.html">PRICING</a>
+           
+    </nav>
+  </header>
+  
+  
+  
+    <div class="intro-block" style="margin: -20px; padding: 0px;"><!--added in section 3.1-->
+      <style>
+     
+          * {
+            box-sizing: border-box;
+          }
+          
+          .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }
+          
+          /* Clearfix (clear floats) */
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          </style>
+          </head>
+          <body>
+          
+          <h2>PRICING AND CUSTOMER DETAILS</h2>
+          
+          <div class="row">
+            <div class="column">
+              <p>PUKEKO</p>
+              <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/pukeko/chalet_exterior.jpg" style="width: 500px;">
+              <h1>MEDIUM CHALET INFO</h1>
+              <p>maximum adults=6</p>
+              <p>maximum children=10</p>
+              <p>pricing from $400 a night</p>
+    
+            </div>
+            <div class="column">
+              <p>KAKAPO</p>
+              <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/kakapo/cabin_exterior.jpg" style="width: 500px; height: 350px;">
+              <h1>LARGE CHALET INFO</h1>
+              <p>maximum adults=10</p>
+              <p>maximum children=30</p>
+              <p>pricing from $800 a night</p>
+           </div>
+            <div class="column">
+              <p>KERERU</p>
+              <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/kereru/cabin_exterior.jpg" style="width: 500px">
+              <h1>SMALL CHALET INFO</h1>
+              <p>maximum adults=2</p>
+              <p>maximum children=4</p>
+              <p>pricing from $200 a night</p>
+              
+            </div>
+          </div>
+  <!--adding form-->
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="action.html">  
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="first name"><br>
+    <label for="lname">Last name:</label><br> 
+    <input type="text" id="lname" name="lname" value="last name"><br><br>
+    <label for="card">credit card:</label><br>
+    <input type="text" id="card" name="card" value="credit card"><br>
+    <label for="Email">Email:</label><br>
+    <input type="text" id="email" name="Email" value="email"><br>
+    <input type="submit" value="Submit">
+   </form> 
+  
+ 
+     
+
+   <!--main heading-->
+          <h1>MAUNGA CLUB CABINS</h1>
+          <a href="index.html"class="button">HOME</a>
+          <a href="chalets.html" class="button">CHALETS</a>
+          <a href="cabin.html" class="button">CHALET INTERIORS</a>
+          <a href="ski.html" class="button">PRICING</a> 
+         
+              
+         <script src="index.html" theme="dark" position="bottom-right"></script>
+          <footer>
+               <p><small>&copy;Maunga club 2023-website by zishan ali</small></p>
+              
+          </footer>
+</body>   
+</html> 
