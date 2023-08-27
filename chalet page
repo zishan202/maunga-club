@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width">
+<title>CHALETS</title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+   <header> 
+    <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/Maunga_Club_white.png"> 
+    
+
+
+    <!--Navigation menu-->
+    <nav>
+        <ul><!--<ul> and <li> tags adding during section 3.1-->
+             <li><a href="index.html">HOME</a>
+             <li><a href="chalets.html">CHALETS</a>
+             <li><a href="cabin.html">CHALET INTERIORS</a>
+             <li><a href="ski.html">PRICING</a>
+    </nav>
+  </header>
+  
+    <div class="intro-block" style="margin:-20px; padding: 0px;"><!--added in section 3.1-->
+
+   
+   <style>
+     * {
+       box-sizing: border-box;
+     }
+     
+     .column {
+       float: left;
+       width: 33.33%;
+       padding: 5px;
+     }
+     
+     /* Clearfix (clear floats) */
+     .row::after {
+       content: "";
+       clear: both;
+       display: table;
+     }
+     </style>
+     </head>
+     <body>
+     
+     <h2>MAUNGA CLUB CHALETS</h2>
+     <p>Only Club members can access the chalets.
+       All chalet bookings must be from Friday to Sunday.
+       Chalets offer shared accommodation for between 6 and 40 people per chalet.
+       All three chalets are on the mountain, so you can ski to and from the chalets.
+       The mountain gives 550 hectares of skiing/snowboarding area, and the longest
+      ski/snowboard season in New Zealand.
+      </p>
+     
+     <div class="row">
+       <div class="column">
+        <p>PUKEKO</p>
+         <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/pukeko/chalet_exterior.jpg" style="width: 500px;">
+         <p>Great for mediocre size groups/families wanting chalet to themselves Limits on adult/child number
+          ensure comfortable stay</p>
+       </div>
+       <div class="column">
+        <p>KAKAPO</p>
+         <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/kakapo/cabin_exterior.jpg" alt="cabin exterior" style="width: 500px; height: 400px;">
+         <p>A chalet is a style of house that is made from wood. Most chalets are made of wood and have a very wide, heavy roof that slopes down. You might think of a chalet as a house you stay in during a ski vacation.this is great for large size families</p>
+       </div>
+       <div class="column">
+        <p>KERERU</p>
+         <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/kereru/cabin_exterior.jpg" alt="cabin" style="width: 500px">
+         <p>Great option for a family 2 bedrooms Perfect for families with 2 to 4 children Separate living area</p>
+       </div>
+     </div>
+    <!--intro block buttons-->
+          <h1>MAUNGA CLUB CHALETS</h1>
+          <a href="index.html"class="button">HOME</a>
+          <a href="chalets.html" class="button">CHALETS</a>
+          <a href="cabin.html" class="button">CHALET INTERIORS</a>
+          <a href="ski.html" class="button">PRICING</a> 
+         
+           
+         <script src="index.html" theme="dark" position="bottom-right"></script>
+          <footer>
+               <p><small>&copy;Maunga Club 2023-website by zishan ali</small></p>
+          </footer>
+</body>   
+</html>
