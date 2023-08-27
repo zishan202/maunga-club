@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width">
+<title>chalet interiors</title>
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+
+<body>
+       <header> 
+        <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/Maunga_Club_white.png"> 
+        
+    
+    
+        <!--Navigation menu-->
+        <nav>
+            <ul><!--<ul> and <li> tags adding during section 3.1-->
+                 <li><a href="index.html">HOME</a>
+                 <li><a href="chalets.html">CHALETS</a>
+                 <li><a href="cabin.html">CHALET INTERIORS</a>
+                 <li><a href="ski.html">PRICING</a>
+               
+        </nav>
+      </header>
+    
+    <div class="intro-block" style="margin: -20px; padding: 0px;"><!--added in section 3.1-->
+<!--styling the images and giving descriptions-->
+       <style>
+     * {
+       box-sizing: border-box;
+     }
+     
+     .column {
+       float: left;
+       width: 33.33%;
+       padding: 5px;
+     }
+     
+     /* Clearfix (clear floats) */
+     .row::after {
+       content: "";
+       clear: both;
+       display: table;
+     }
+     </style>
+     </head>
+     <body>
+     
+     <h2>MAUNGA CLUB CHALET INTERIORS AND CHALET INFORMATION</h2>
+     
+     
+     <div class="row">
+       <div class="column">
+        <p>ADULT BEDROOM</p>
+         <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/pukeko/adult_bedroom.jpg" style="width: 500px;">
+         <p>Great for couples wanting a chalet to themselves Limits on adult/child number
+          ensure comfortable stay</p>
+       </div>
+       <div class="column">
+        <p>BUNK ROOM</p>
+         <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/kakapo/bunk_room.jpg" alt="bunk room" style="width: 500px; height: 400px;">
+         <p>great option for very large family with 6 or more people</p>
+       </div>
+       <div class="column">
+        <p>KIDS ROOM</p>
+         <img src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/kereru/kids_bedroom.jpg" alt="kids room" style="width: 500px">
+         <p>Great option for large families with 2 to 4 children.</p>
+       </div>
+     </div>
+
+   <!--adding hero image-->
+          <img style=width:800px;height:800px; src="Maunga Club Images-20230807T022547Z-001/Maunga Club Images/kereru/kitchen.jpg">
+   <!--main heading-->
+          <h1>MAUNGA CLUB INTERIORS</h1>
+          <a href="index.html"class="button">HOME</a>
+          <a href="chalets.html" class="button">CHALETS</a>
+          <a href="cabin.html" class="button">CHALET INTERIOR</a>
+          <a href="ski.html" class="button">PRICING</a> 
+         
+          
+         <script src="index.html" theme="dark" position="bottom-right"></script>
+          <footer>
+               <p><small>&copy;Maunga Club 2023-website by zishan ali</small></p>
+              
+          </footer>
+</body>   
+</html>
