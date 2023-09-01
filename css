@@ -1,0 +1,170 @@
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent ;
+}
+
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    overflow-x: hidden;
+
+    
+}
+
+header {
+    background-color: orangered;    
+    height:-170px;
+    margin-bottom: 0px;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    z-index: 999;
+    
+}
+
+img{
+    padding: 5px 30px;
+    width: 400px;
+
+
+}
+
+
+
+nav {
+    float: right;
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+
+}
+
+   
+
+nav li a:hover{
+    background-color: black;
+    text-decoration: underline;
+}
+
+nav li{display:inline-block;
+}
+
+nav li a{
+    color:aliceblue;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.intro-block{
+    background: url("Ultra Bungee images/ultra-bungee-hero.jpg") no-repeat center;
+    background-size: cover;
+    padding-bottom:0px;
+    padding-top: 0px;
+
+}
+
+.intro-block{
+    background-color:black;
+    margin:0 auto;
+    margin-top: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.intro-block a:hover{
+    background-color: orangered;
+}
+
+
+.intro-block a{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    outline-color: white;
+    outline-style: double;
+}
+
+
+
+image{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+h1{font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline dotted;
+  
+   
+}
+ 
+a{
+    font-size: 19px;
+    margin: 30px 20px;
+    padding: 15px 0px;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    outline-color: white;
+    outline-style: double;
+}
+
+footer{
+    background-color: orangered;
+    color:white;
+    margin-top: 40px;
+    padding: 30px 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+     color: white;
+}
+h3{
+    color:antiquewhite;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: large;
+}
+h2{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline dotted;
+    font-size: 20px;
+    
+}
+p{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: center;
+    outline-color:orangered;
+    outline-style: double;
+}
+
+
+
+li{
+    text-align: center;
+}
+h1{
+    color: white;
+}
+h4{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+}
+
+h5{
+    font-family:'Times New Roman,Times,serif';
+    color:white;
+    font-size: x-large;
+    float:right ;
+
+}
+
+h6{
+    float: right;
+}
